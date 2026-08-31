@@ -1,2 +1,0 @@
-case_id,created_at,team,category,priority,sla_target_hours,queue_time_hours,processing_time_hours,tat_hours,rework_count,escalation_flag,sla_status,breach_reason
-OPS-00001,2025-01-02 07:00:00,Team B,Documentation,Medium,48,14.32,8.11,22.43,0,0,SLA Met,None
