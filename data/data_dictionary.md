@@ -1,38 +1,34 @@
 # Data Dictionary
 
-## Operations Request Dataset
-
-The dataset will contain synthetic operational records for portfolio analysis. Each row represents one completed service request.
+Each row represents one completed operational service request. The dataset is synthetic and created specifically for this portfolio case study.
 
 | Field | Type | Description |
 |---|---|---|
 | request_id | String | Unique request identifier |
-| request_date | Date | Date request was received |
+| request_date | Date | Date the request was received |
 | request_type | Category | Type of service request |
-| priority | Category | Request priority: Low, Medium, High, Critical |
+| priority | Category | Low, Medium, High or Critical |
 | customer_segment | Category | Client segment |
-| channel | Category | Source channel of request |
+| channel | Category | Source channel |
 | region | Category | Operating region |
 | team | Category | Operations team handling request |
-| agent_id | String | Assigned operations agent |
+| agent_id | String | Synthetic assigned agent |
 | received_at | Timestamp | Request receipt timestamp |
-| assigned_at | Timestamp | Timestamp when request was assigned |
-| processing_started_at | Timestamp | Timestamp when active processing began |
-| completed_at | Timestamp | Timestamp when request was completed |
+| assigned_at | Timestamp | Assignment timestamp |
+| processing_started_at | Timestamp | Active processing start timestamp |
+| completed_at | Timestamp | Completion timestamp |
 | sla_hours | Numeric | SLA threshold in hours |
-| tat_hours | Numeric | Total elapsed time from receipt to completion |
-| queue_hours | Numeric | Time from receipt/assignment to processing start |
+| tat_hours | Numeric | Receipt-to-completion duration |
+| queue_hours | Numeric | Receipt-to-processing-start duration |
 | processing_hours | Numeric | Active processing duration |
-| rework_flag | Boolean | Whether the request required rework |
-| rework_hours | Numeric | Additional time attributed to rework |
+| rework_flag | Boolean | Whether additional work was required |
+| rework_hours | Numeric | Additional handling time |
 | escalation_flag | Boolean | Whether the request was escalated |
-| escalation_reason | Category | Reason for escalation, where applicable |
+| escalation_reason | Category | Escalation reason, if applicable |
 | sla_status | Category | Met or Breached |
-| breach_reason | Category | Primary reason for SLA breach, where applicable |
+| breach_reason | Category | Primary modeled reason for breach |
 
-## Derived Metrics
-
-The analysis will derive:
+## Derived KPIs
 
 - SLA compliance percentage
 - SLA breach percentage
@@ -48,4 +44,4 @@ The analysis will derive:
 
 ## Data Design Principle
 
-The synthetic data will be generated only after the business requirements and process design are defined. Relationships between volume, workload, queue time, rework and SLA outcomes will be realistic but will not be used to predetermine final findings.
+The data will contain realistic operational relationships suitable for analysis. Hypotheses in the BRD will be tested against the data rather than presented as predetermined conclusions.
