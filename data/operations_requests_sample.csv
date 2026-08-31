@@ -1,0 +1,101 @@
+Request_ID,Request_Date,Request_Type,Priority,Customer_Segment,Channel,Region,Team,Agent_ID,SLA_Hours,Queue_Hours,Processing_Hours,Rework_Hours,Rework_Flag,Escalation_Flag,TAT_Hours,SLA_Status
+REQ-00001,2026-02-27,Identity Verification,Low,Enterprise,Portal,East,Gamma,G08,48,5.79,4.76,0.0,0,0,10.55,Within SLA
+REQ-00002,2026-05-10,Identity Verification,Low,Enterprise,Partner,North,Beta,B08,48,1.59,5.59,0.0,0,0,7.18,Within SLA
+REQ-00003,2026-06-28,Address Verification,Medium,SMB,Email,West,Alpha,A06,24,10.92,5.23,0.0,0,0,16.15,Within SLA
+REQ-00004,2026-06-04,Identity Verification,Medium,Mid-Market,Portal,East,Gamma,G12,24,2.6,4.16,0.0,0,0,6.76,Within SLA
+REQ-00005,2026-05-28,Identity Verification,Medium,Enterprise,API,South,Omega,O12,24,4.88,2.56,0.0,0,0,7.44,Within SLA
+REQ-00006,2026-03-13,Identity Verification,High,SMB,Email,South,Alpha,A13,12,7.08,2.93,0.0,0,0,10.02,Within SLA
+REQ-00007,2026-06-12,Business Verification,High,SMB,Partner,East,Alpha,A20,12,1.94,5.49,0.0,0,0,7.43,Within SLA
+REQ-00008,2026-06-25,Document Review,Critical,SMB,API,West,Omega,O08,6,2.49,8.63,0.0,0,0,11.12,Breach
+REQ-00009,2026-05-26,Document Review,Medium,Enterprise,Partner,East,Alpha,A07,24,2.68,7.28,0.0,0,0,9.96,Within SLA
+REQ-00010,2026-05-24,Address Verification,Low,Mid-Market,Partner,South,Beta,B08,48,2.55,5.57,0.0,0,0,8.13,Within SLA
+REQ-00011,2026-05-07,Business Verification,Critical,SMB,API,North,Beta,B17,6,2.55,17.21,4.47,1,1,24.23,Breach
+REQ-00012,2026-06-02,Address Verification,Medium,Enterprise,Portal,West,Delta,D13,24,7.11,2.61,0.0,0,0,9.72,Within SLA
+REQ-00013,2026-03-17,KYC Refresh,High,Enterprise,Email,North,Gamma,G04,12,19.4,9.11,0.0,0,0,28.51,Breach
+REQ-00014,2026-06-05,KYC Refresh,High,SMB,Portal,South,Gamma,G17,12,6.75,6.37,0.0,0,1,13.12,Breach
+REQ-00015,2026-03-03,Address Verification,Low,SMB,Portal,East,Gamma,G10,48,1.76,2.3,6.8,1,0,10.86,Within SLA
+REQ-00016,2026-02-02,Identity Verification,Critical,SMB,Email,East,Omega,O05,6,1.24,3.67,0.0,0,0,4.92,Within SLA
+REQ-00017,2026-04-13,Business Verification,High,Mid-Market,Partner,West,Beta,B10,12,5.16,7.87,0.0,0,0,13.03,Breach
+REQ-00018,2026-05-31,Business Verification,Medium,SMB,Portal,West,Gamma,G01,24,6.12,12.28,0.0,0,0,18.4,Within SLA
+REQ-00019,2026-01-19,Business Verification,Low,Mid-Market,API,North,Alpha,A11,48,2.07,8.08,0.0,0,0,10.14,Within SLA
+REQ-00020,2026-04-15,KYC Refresh,Medium,Mid-Market,Email,East,Beta,B16,24,1.04,8.82,0.0,0,0,9.85,Within SLA
+REQ-00021,2026-01-16,Address Verification,Medium,SMB,API,North,Alpha,A04,24,1.6,2.63,0.0,0,0,4.23,Within SLA
+REQ-00022,2026-02-16,Business Verification,Medium,SMB,Partner,West,Beta,B14,24,7.16,9.98,0.0,0,0,17.15,Within SLA
+REQ-00023,2026-01-24,Identity Verification,High,SMB,Partner,East,Omega,O01,12,5.29,3.99,0.0,0,0,9.28,Within SLA
+REQ-00024,2026-02-12,Address Verification,Medium,Mid-Market,Partner,South,Delta,D02,24,10.44,4.5,0.0,0,0,14.94,Within SLA
+REQ-00025,2026-02-09,Address Verification,High,SMB,Portal,South,Omega,O16,12,0.19,5.33,0.0,0,0,5.53,Within SLA
+REQ-00026,2026-05-16,Identity Verification,Low,SMB,API,West,Delta,D17,48,1.15,7.2,0.0,0,0,8.35,Within SLA
+REQ-00027,2026-01-31,KYC Refresh,Low,Enterprise,Portal,West,Beta,B13,48,3.48,6.8,0.0,0,0,10.28,Within SLA
+REQ-00028,2026-03-22,Address Verification,High,Enterprise,Email,North,Omega,O17,12,2.16,5.19,0.0,0,0,7.35,Within SLA
+REQ-00029,2026-03-22,Document Review,Medium,SMB,Partner,West,Gamma,G15,24,2.12,5.87,0.0,0,0,8.0,Within SLA
+REQ-00030,2026-02-03,Identity Verification,Medium,SMB,Email,South,Omega,O09,24,5.81,7.5,0.0,0,0,13.31,Within SLA
+REQ-00031,2026-06-06,Business Verification,Medium,Enterprise,Portal,South,Omega,O10,24,2.71,10.77,0.0,0,0,13.48,Within SLA
+REQ-00032,2026-01-30,Identity Verification,Critical,SMB,Email,South,Beta,B09,6,9.76,5.32,0.0,0,0,15.08,Breach
+REQ-00033,2026-06-25,KYC Refresh,Medium,Mid-Market,Email,West,Gamma,G07,24,2.34,5.35,0.0,0,0,7.69,Within SLA
+REQ-00034,2026-01-01,Identity Verification,Medium,Mid-Market,API,East,Gamma,G02,24,9.25,4.51,0.0,0,0,13.76,Within SLA
+REQ-00035,2026-01-29,KYC Refresh,High,SMB,Portal,South,Omega,O01,12,4.12,5.53,2.55,1,0,12.2,Breach
+REQ-00036,2026-01-11,KYC Refresh,Medium,SMB,Email,North,Delta,D05,24,3.16,4.53,0.0,0,0,7.69,Within SLA
+REQ-00037,2026-04-15,Business Verification,High,SMB,API,North,Gamma,G18,12,4.79,4.43,0.0,0,0,9.22,Within SLA
+REQ-00038,2026-06-21,Address Verification,Low,Mid-Market,API,West,Gamma,G14,48,4.93,3.9,0.0,0,0,8.83,Within SLA
+REQ-00039,2026-02-21,Address Verification,High,Mid-Market,API,North,Delta,D08,12,4.05,2.23,0.0,0,0,6.28,Within SLA
+REQ-00040,2026-03-13,Identity Verification,High,Mid-Market,Email,East,Delta,D11,12,4.29,11.84,0.0,0,0,16.13,Breach
+REQ-00041,2026-03-08,KYC Refresh,Medium,Mid-Market,Portal,West,Alpha,A04,24,5.72,5.48,0.0,0,0,11.2,Within SLA
+REQ-00042,2026-06-05,KYC Refresh,Medium,Enterprise,API,South,Gamma,G14,24,4.0,3.99,0.0,0,0,7.99,Within SLA
+REQ-00043,2026-05-18,Identity Verification,High,Enterprise,API,South,Alpha,A17,12,6.87,3.34,0.0,0,0,10.22,Within SLA
+REQ-00044,2026-03-22,Address Verification,Low,Mid-Market,Email,East,Gamma,G20,48,6.97,2.91,0.0,0,0,9.88,Within SLA
+REQ-00045,2026-02-02,Document Review,Medium,Mid-Market,API,South,Gamma,G18,24,9.94,11.4,0.0,0,0,21.34,Within SLA
+REQ-00046,2026-03-15,Address Verification,Medium,Enterprise,Email,East,Alpha,A10,24,1.79,3.28,0.0,0,0,5.07,Within SLA
+REQ-00047,2026-05-02,Address Verification,Medium,Enterprise,API,West,Beta,B17,24,11.67,5.43,0.0,0,0,17.1,Within SLA
+REQ-00048,2026-01-24,Document Review,Medium,Enterprise,Email,North,Omega,O11,24,0.99,7.17,0.0,0,0,8.16,Within SLA
+REQ-00049,2026-05-02,Business Verification,Low,Mid-Market,Partner,North,Alpha,A08,48,5.94,6.53,0.0,0,0,12.47,Within SLA
+REQ-00050,2026-06-17,Address Verification,Medium,SMB,Partner,North,Beta,B05,24,2.17,3.57,0.0,0,0,5.75,Within SLA
+REQ-00051,2026-01-13,Business Verification,High,SMB,Partner,North,Omega,O15,12,3.12,10.93,0.0,0,0,14.06,Breach
+REQ-00052,2026-03-23,Address Verification,High,Enterprise,Partner,East,Omega,O20,12,4.83,6.32,0.0,0,0,11.15,Within SLA
+REQ-00053,2026-03-08,Business Verification,High,Mid-Market,Partner,North,Delta,D15,12,3.21,8.37,0.0,0,0,11.58,Within SLA
+REQ-00054,2026-03-11,Document Review,Medium,SMB,API,North,Gamma,G08,24,4.94,9.2,0.0,0,0,14.14,Within SLA
+REQ-00055,2026-01-17,Business Verification,Medium,Mid-Market,Partner,West,Beta,B07,24,9.38,6.64,0.0,0,0,16.03,Within SLA
+REQ-00056,2026-06-28,Business Verification,High,Enterprise,Partner,East,Delta,D19,12,4.91,10.16,1.59,1,0,16.66,Breach
+REQ-00057,2026-04-18,Identity Verification,Critical,Enterprise,API,East,Gamma,G13,6,5.05,3.89,0.0,0,0,8.95,Breach
+REQ-00058,2026-04-10,Business Verification,Medium,Mid-Market,API,East,Delta,D01,24,4.65,5.88,0.0,0,0,10.53,Within SLA
+REQ-00059,2026-04-11,Business Verification,Critical,SMB,Partner,North,Omega,O01,6,1.47,11.33,0.0,0,0,12.79,Breach
+REQ-00060,2026-03-25,Address Verification,Low,Mid-Market,Email,East,Gamma,G13,48,2.24,2.69,0.0,0,0,4.93,Within SLA
+REQ-00061,2026-05-19,Document Review,High,SMB,Portal,West,Delta,D01,12,7.74,8.09,4.98,1,0,20.8,Breach
+REQ-00062,2026-06-09,Identity Verification,Critical,Enterprise,Portal,North,Beta,B01,6,3.41,3.84,0.0,0,1,7.25,Breach
+REQ-00063,2026-06-05,Address Verification,High,SMB,API,South,Gamma,G06,12,7.35,3.68,0.0,0,0,11.03,Within SLA
+REQ-00064,2026-06-23,Identity Verification,Medium,Enterprise,API,West,Gamma,G19,24,4.15,8.32,0.0,0,0,12.46,Within SLA
+REQ-00065,2026-06-28,KYC Refresh,High,Enterprise,Portal,West,Beta,B04,12,1.16,5.93,0.0,0,0,7.09,Within SLA
+REQ-00066,2026-05-10,Document Review,Medium,Mid-Market,Partner,West,Gamma,G03,24,1.66,8.29,0.0,0,1,9.94,Within SLA
+REQ-00067,2026-04-22,Address Verification,Critical,Enterprise,Email,East,Delta,D05,6,3.74,5.18,0.0,0,0,8.93,Breach
+REQ-00068,2026-03-24,Address Verification,Medium,SMB,Email,East,Omega,O09,24,2.05,2.35,0.0,0,0,4.4,Within SLA
+REQ-00069,2026-06-21,Business Verification,High,Mid-Market,API,East,Omega,O20,12,1.9,7.52,0.0,0,1,9.43,Within SLA
+REQ-00070,2026-03-13,Business Verification,Medium,Mid-Market,Portal,North,Gamma,G11,24,4.65,10.3,0.0,0,0,14.95,Within SLA
+REQ-00071,2026-05-23,Identity Verification,Medium,Enterprise,Partner,East,Delta,D16,24,4.84,3.77,0.0,0,0,8.61,Within SLA
+REQ-00072,2026-06-27,Identity Verification,Low,Mid-Market,Partner,South,Beta,B13,48,4.28,3.35,0.0,0,0,7.64,Within SLA
+REQ-00073,2026-04-01,Address Verification,Critical,Mid-Market,API,West,Omega,O11,6,7.33,5.81,0.0,0,1,13.14,Breach
+REQ-00074,2026-02-19,Business Verification,Medium,Enterprise,Email,West,Omega,O06,24,1.2,6.48,0.0,0,0,7.68,Within SLA
+REQ-00075,2026-03-19,Business Verification,Medium,Mid-Market,Portal,West,Gamma,G06,24,5.09,9.85,4.58,1,0,19.52,Within SLA
+REQ-00076,2026-01-27,KYC Refresh,Medium,Mid-Market,Partner,East,Beta,B16,24,10.12,6.02,0.0,0,0,16.13,Within SLA
+REQ-00077,2026-05-03,Document Review,Low,Mid-Market,Portal,West,Alpha,A09,48,7.69,8.79,3.37,1,0,19.85,Within SLA
+REQ-00078,2026-01-22,Business Verification,Low,Mid-Market,API,East,Omega,O10,48,2.19,8.28,0.0,0,0,10.48,Within SLA
+REQ-00079,2026-04-20,Address Verification,High,Enterprise,Portal,North,Gamma,G19,12,3.99,3.32,0.0,0,0,7.31,Within SLA
+REQ-00080,2026-03-03,Business Verification,Medium,SMB,Partner,East,Alpha,A06,24,6.53,5.12,0.0,0,0,11.65,Within SLA
+REQ-00081,2026-03-15,KYC Refresh,Medium,Mid-Market,Portal,North,Alpha,A08,24,1.96,5.34,0.0,0,0,7.3,Within SLA
+REQ-00082,2026-04-19,Document Review,High,SMB,Email,North,Omega,O07,12,2.31,8.88,1.6,1,1,12.79,Breach
+REQ-00083,2026-05-26,Identity Verification,Low,Mid-Market,Email,East,Gamma,G20,48,4.25,3.98,0.0,0,0,8.23,Within SLA
+REQ-00084,2026-01-21,Document Review,Medium,Enterprise,Email,South,Delta,D15,24,9.72,9.36,0.0,0,0,19.07,Within SLA
+REQ-00085,2026-01-06,Identity Verification,Low,Mid-Market,Portal,North,Omega,O19,48,0.53,5.34,0.0,0,0,5.87,Within SLA
+REQ-00086,2026-02-16,Address Verification,Medium,Mid-Market,Portal,East,Delta,D09,24,2.91,2.23,0.0,0,0,5.14,Within SLA
+REQ-00087,2026-02-11,Document Review,Medium,Mid-Market,Partner,West,Gamma,G04,24,5.82,9.48,0.0,0,0,15.3,Within SLA
+REQ-00088,2026-01-30,Address Verification,Low,Enterprise,Portal,East,Gamma,G11,48,3.18,3.58,0.0,0,0,6.76,Within SLA
+REQ-00089,2026-06-09,Address Verification,Low,SMB,API,South,Omega,O12,48,12.03,4.61,0.0,0,0,16.64,Within SLA
+REQ-00090,2026-06-28,KYC Refresh,Low,Enterprise,API,North,Gamma,G15,48,5.35,10.69,0.0,0,1,16.04,Within SLA
+REQ-00091,2026-01-24,Document Review,Medium,SMB,Partner,West,Omega,O14,24,1.02,5.91,0.0,0,0,6.93,Within SLA
+REQ-00092,2026-06-30,Business Verification,Medium,Mid-Market,API,East,Gamma,G17,24,3.43,17.33,0.0,0,0,20.76,Within SLA
+REQ-00093,2026-05-11,KYC Refresh,Low,SMB,Email,East,Beta,B20,48,0.04,4.19,0.0,0,0,4.23,Within SLA
+REQ-00094,2026-01-01,Document Review,Critical,Enterprise,Partner,North,Omega,O09,6,0.56,4.44,0.0,0,0,5.0,Within SLA
+REQ-00095,2026-05-22,Address Verification,Medium,Mid-Market,API,North,Gamma,G11,24,2.92,4.19,0.0,0,0,7.11,Within SLA
+REQ-00096,2026-03-23,KYC Refresh,Medium,Mid-Market,Partner,North,Delta,D02,24,4.29,13.65,0.0,0,0,17.93,Within SLA
+REQ-00097,2026-06-01,Address Verification,Critical,Mid-Market,Portal,East,Beta,B17,6,1.81,4.7,0.0,0,1,6.51,Breach
+REQ-00098,2026-01-20,Identity Verification,High,Mid-Market,Partner,West,Delta,D05,12,3.53,5.11,0.0,0,0,8.64,Within SLA
+REQ-00099,2026-03-23,Document Review,High,Mid-Market,Portal,West,Omega,O13,12,4.46,8.83,0.0,0,0,13.28,Breach
+REQ-00100,2026-01-24,Business Verification,Medium,Enterprise,Portal,East,Gamma,G08,24,2.52,18.84,0.0,0,0,21.37,Within SLA
